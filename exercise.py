@@ -1,14 +1,13 @@
-name = input("Enter your name: ")
-print("Hello", name + "!")
 a = int(input("Enter your first value:"))
 b = int(input("Enter your second value:"))
-res=a+b
+c = int(input("Enter your second value:"))
+res=a+b+c
 print(res)
-res=a-b
+res=a-b-c
 print(res)
-res=a*b
+res=a*b*c
 print(res)
-res=a**b
+res=(a**b)**c
 print(res)
-res=a/b
+res=(a/b)/c
 print(res)
